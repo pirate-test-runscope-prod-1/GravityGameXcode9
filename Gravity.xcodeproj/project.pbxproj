@@ -316,10 +316,12 @@
 					};
 					0E6255EA1BDEFF0800DA9AE9 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5Z97G9NZQ6;
 						TestTargetID = 0E6255D11BDEFF0700DA9AE9;
 					};
 					0E6255F51BDEFF0800DA9AE9 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5Z97G9NZQ6;
 						TestTargetID = 0E6255D11BDEFF0700DA9AE9;
 					};
 				};
@@ -479,6 +481,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -522,6 +525,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -543,13 +547,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.Gravity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50d1de44-723d-4165-82a1-0acd2a854b62";
-				PROVISIONING_PROFILE_SPECIFIER = "meirav Prov";
+				PROVISIONING_PROFILE = "e3d86a56-98f6-4945-a791-0b894626ef95";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 			};
 			name = Debug;
 		};
@@ -557,13 +563,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = meirav.com.novn.Gravity;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piratespaceship.Gravity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "50d1de44-723d-4165-82a1-0acd2a854b62";
-				PROVISIONING_PROFILE_SPECIFIER = "meirav Prov";
+				PROVISIONING_PROFILE = "e3d86a56-98f6-4945-a791-0b894626ef95";
+				PROVISIONING_PROFILE_SPECIFIER = "iOS Wildcard In-House";
 			};
 			name = Release;
 		};
