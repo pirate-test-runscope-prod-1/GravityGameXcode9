@@ -544,10 +544,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
 				PROVISIONING_PROFILE_SPECIFIER = "Appcenter Runscope Test Development";
@@ -559,10 +559,10 @@
 			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = UBF8T346G9;
+				DEVELOPMENT_TEAM = BGSR8DRP9M;
 				INFOPLIST_FILE = Gravity/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.microsoft.runscope.all";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.akvelon.dri.runscope.all";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "5fc8b8fe-a070-48dd-8dc5-5aef62e0e346";
 				PROVISIONING_PROFILE_SPECIFIER = "Appcenter Runscope Test Development";
@@ -576,7 +576,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = GravityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.novn.GravityTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.GravityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gravity.app/Gravity";
 			};
@@ -589,7 +589,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = GravityTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.novn.GravityTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.GravityTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gravity.app/Gravity";
 			};
@@ -601,7 +601,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = GravityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.novn.GravityUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.GravityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Gravity;
 				USES_XCTRUNNER = YES;
@@ -614,7 +614,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				INFOPLIST_FILE = GravityUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.novn.GravityUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akvelon.dri.GravityUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Gravity;
 				USES_XCTRUNNER = YES;
